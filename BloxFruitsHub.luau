@@ -95,7 +95,7 @@ if CoreGui:FindFirstChild("SIGMA_HUB_V7") then
 end
 
 local ScreenGui = Instance.new("ScreenGui", CoreGui)
-ScreenGui.Name = "SIGMA_HUB_V7"
+ScreenGui.Name = "COSMIC HUB"
 
 local MainFrame = Instance.new("Frame", ScreenGui)
 MainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
@@ -657,3 +657,4 @@ UserInputService.InputBegan:Connect(function(input, processed)
 end)
 
 print("Sigma Premium Hub V7 Loaded - No Soru - Strict Filter Active.")
+
